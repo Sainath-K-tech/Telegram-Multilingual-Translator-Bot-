@@ -23,7 +23,7 @@ AudioSegment.ffmpeg = r"C:\ffmpeg\bin\ffmpeg.exe"
 AudioSegment.ffprobe = r"C:\ffmpeg\bin\ffprobe.exe"
 
 # ✅ Detectlanguage API Key
-configuration.api_key = "8ee86faae8d544e247f0080801b1a4d7"  # <-- Replace here
+configuration.api_key = "YOUR_DETECT_LANGUAGE_API_KEY"  # <-- Replace here
 
 # ----------------- Languages -----------------
 TEXT_LANGUAGES = dict(sorted({
@@ -331,7 +331,7 @@ def main():
     # Build application with custom timeouts
     app = (
         ApplicationBuilder()
-        .token("7602413671:AAEaIyN7SDretUNhIAh0fYxF808ztXKaT1Q")
+        .token("YOUR_TELEGRAM_BOT_TOKEN")
         .read_timeout(30)
         .write_timeout(30)
         .connect_timeout(30)
