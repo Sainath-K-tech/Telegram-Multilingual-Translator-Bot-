@@ -3,6 +3,7 @@
 A **Telegram bot** that translates text and voice messages between multiple languages.  
 It uses **Speech Recognition, Google Translate, gTTS (Text-to-Speech)**, and **Pydub** to provide a complete translation assistant with both **text and audio outputs**.
 
+
 ---
 
 ## ✨ Features
@@ -59,10 +60,16 @@ Linux:
 Get a Telegram Bot Token from @BotFather
 
 Replace the token inside main():
-   ```bash
-      .token("YOUR_TELEGRAM_BOT_TOKEN")
-
-    Add your DetectLanguage API key
+.token("YOUR_TELEGRAM_BOT_TOKEN")
+ Add your DetectLanguage API key
  in the code:
 
 configuration.api_key = "YOUR_API_KEY"
+
+## 📸Screenshots
+
+### 1. Test message Input
+![image alt](https://github.com/Sainath-K-tech/Telegram-Multilingual-Translator-Bot-/blob/96faa6cfd2c3bde91aeb311c98d15b877209db80/Screenshot%202025-09-16%20214917.png)
+
+### 2. Voice message Input
+![image alt](https://github.com/Sainath-K-tech/Telegram-Multilingual-Translator-Bot-/blob/96faa6cfd2c3bde91aeb311c98d15b877209db80/Screenshot%202025-09-16%20214935.png)
